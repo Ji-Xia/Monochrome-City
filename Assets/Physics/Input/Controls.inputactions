@@ -1,0 +1,108 @@
+{
+    "version": 1,
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "PlayerNormal",
+            "id": "404746fd-890f-421f-97d2-6ab7ab03c5ed",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "b3e73a8d-7da2-46a6-86fe-40285ae82725",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Dive",
+                    "type": "Button",
+                    "id": "8e6362b1-71dd-4478-8e9d-e835a1c377b7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interaction",
+                    "type": "Button",
+                    "id": "268baffe-090f-4f50-8b9e-19674410ef59",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a4cef14b-3050-41d9-902e-0d479d4ab043",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2892ea15-8bcf-413d-9a18-4d554996fa5d",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0fa6eff-88b9-4481-8161-31d2d4bcced1",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dive",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3714089b-811f-4f3f-b27d-5709d5166d09",
+                    "path": "<XInputController>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dive",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9cf501a2-19aa-4460-b3de-525277dc2679",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "613d56d2-e0e9-4bf4-bc8c-583b03af3578",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
